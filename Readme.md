@@ -34,12 +34,16 @@ This project is a complete backend implementation of a YouTube clone using Node.
     ```
 4. Create a `.env` file in the root directory and add your environment variables:
     ```env
-    PORT=8000
+    PORT=your_port
     MONGODB_URI=your_mongodb_uri
-    JWT_SECRET=your_jwt_secret
-    CLOUDINARY_CLOUD_NAME=your_cloud_name
-    CLOUDINARY_API_KEY=your_api_key
-    CLOUDINARY_API_SECRET=your_api_secret
+    CORS_ORIGIN=your_cors_origin
+    ACCESS_TOKEN_SECRET=your_access_token_secret
+    ACCESS_TOKEN_EXPIRY=your_access_token_expiry
+    REFRESH_TOKEN_SECRET=your_refresh_token_secret
+    REFRESH_TOKEN_EXPIRY=your_refresh_token_expiry
+    CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
+    CLOUDINARY_API_KEY=your_cloudinary_api_key
+    CLOUDINARY_API_SECRET=your_cloudinary_api_secret
     ```
 
 ## Usage
