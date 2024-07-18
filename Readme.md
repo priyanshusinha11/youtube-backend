@@ -1,6 +1,6 @@
 # YouTube Backend 
 
-This project is a complete backend implementation of a YouTube clone using Node.js and Express.js and MongoDB. It includes models for user, comment, like, playlist, subscription, tweet (used as community post), and video. The main app runs on `http://localhost:8000/api/v1`.
+This project is a complete backend implementation of a YouTube clone using Node.js, Express.js and MongoDB. It includes models for user, comment, like, playlist, subscription, tweet (used as community post), and video. The main app runs on `http://localhost:8000/api/v1`.
 
 ## Table of Contents
 - [Technologies Used](#technologies-used)
